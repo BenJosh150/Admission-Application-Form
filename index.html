@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="favicon" type="image/xicon" href="img/fuoye.jpg">
+        <title>Fuoye Application Form</title>
+    </head>
+    <body>
+        <img src="img/fuoye.jpg" alt="fuoye img" style="width:150px;height:150px;" align="left">
+        <img src="img/img.jpg" alt="fuoye img" style="width:150px;height:150px;" align="right">
+        <h1 style="color:blue;" align="center">Federal University Oye-Ekiti</h1>
+        <p align="center" style="color:blue">Federal University Oye-Ekiti (FUOYE)<br/>KM 317, Off Are Road,<br/>Oye-Ekiti, Ekiti State.</p>
+        <hr/>
+        <h2 align="center">Application Form</h2>
+        <p><strong><i>NOTE: ALL ENTRIES SHOULD BE FILLED IN BLOCK LETTERS</i></strong></p>
+        <h3>Candidadte's Informtion</h3><hr/>
+        <form>
+            <label>Date of Application:</label>
+            <input type="date" placeholder="dd/mm/yy" required><br/><br/>
+            <label>Session:</label>
+            <select id="session" name="years" required>
+                <option value="2011/12">2011/12</option>
+                <option value="2012/13">2012/13</option>
+                <option value="2013/14">2013/14</option>
+                <option value="2014/15">2014/15</option>
+                <option value="2015/16">2015/16</option>
+                <option value="2016/17">2016/17</option>
+                <option value="2017/18">2017/18</option>
+                <option value="2018/19">2018/19</option>
+                <option value="2019/20">2019/20</option>
+                <option value="2020/21">2020/21</option>
+                <option value="2021/22">2021/22</option>
+                <option value="2022/23">2022/23</option>
+                <option value="2023/24">2023/24</option>
+            </select>
+            <br/><br/>
+            <label>Reg. Number:</label>
+            <input type="text" placeholder="input your registration number" required>
+        </form>
+        <h4>Candidate's Name</h4>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="input your first name" required>
+            <label for="mname">Middle Name (optional):</label>
+            <input type="text" id="mname" name="mname" placeholder="input your middle name"><br/><br/>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="input your last name" required><br/><br/>
+            <label>Date of Birth:</label>
+            <input type="date" placeholder="dd/mm/yy" required><br/><br/>
+            <label>Gender:</label>
+            <select id="gender" name="sex" required>
+                <option value="male">M</option>
+                <option value="female">F</option>
+            </select>
+            <br/><br/>
+            <label>Nationality:</label>
+            <input type="text" required>
+            <label>State:</label>
+            <input type="text" required><br/><br/>
+            <label>City:</label>
+            <input type="text" required><br/><br/>
+            <label>Address 1:</label>
+            <input type="text" placeholder="input your address" required><br/><br/>
+            <label>Address 2:</label>
+            <input type="text" placeholder="input your address"><br/><br/>
+            <label>E-mail:</label>
+            <input type="email" placeholder="example@example.com" required><br/><br/>
+            <label>Candidate's Phone Number:</label>
+            <input type="tel" required><br/><br/>
+            <label>Course:</label>
+            <input type="text" placeholder="input your course" required><br/><br/>
+        </form>
+        <h3>Parent/Guardian Information</h3><hr/>
+        <form>
+            <label>Father's Name:</label>
+            <input type="text" placeholder="input father's name" required><br/><br/>
+            <label>Phone Number:</label>
+            <input type="tel" required><br/><br/>
+            <label>Mother's Name:</label>
+            <input type="text" placeholder="input mother's name" required><br/><br/>
+            <label>Phone Number:</label>
+            <input type="tel" required><br/><br/>
+            <label>Father's Occupation:</label>
+            <input type="text" placeholder="input father's occupatiuon" required><br/><br/>
+            <label>Mother's Occupation:</label>
+            <input type="text" placeholder="input mother's occupation" required><br/><br/>
+            <label>Parent's/Guardian Address</label>
+            <input type="text" placeholder="input parent's/guardian's address required"><br/><br/>
+        </form>
+        <h3 align="center" style="color:blue">Username and Password</h3><hr/>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="input your username" required><br/><br/>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="choose a strong password" required><br/><br/>
+            <hr/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
